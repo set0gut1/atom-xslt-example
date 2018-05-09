@@ -8,7 +8,11 @@
 
   <xsl:template match="text()"/>
 
-  <xsl:template match="/a:feed">
+  <xsl:template match="/importer">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="a:feed">
     <html>
       <head>
         <title>
