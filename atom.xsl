@@ -10,6 +10,12 @@
 
   <xsl:template match="/a:feed">
     <html>
+      <head>
+        <title>
+          <xsl:value-of select="a:title"/>
+        </title>
+        <link rel="stylesheet" href="atom.css"/>
+      </head>
       <body>
         <h1>
           <xsl:value-of select="a:title"/>
