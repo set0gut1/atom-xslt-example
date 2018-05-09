@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://example.com/</id>
-  <title>sample feed</title>
+  <title>sample latest updates</title>
   <updated>2018-05-09T00:00:00+09:00</updated>
   <entry>
       <id>http://example.com/post6.html</id>

@@ -1,9 +1,22 @@
+html, body {
+  margin: 0px;
+  padding 0px;
+}
+
 #wrapper {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
 }
 
 iframe {
   display: block;
   width: 100%;
+  border: none;
+  background-color: #def;
+  border-radius: 1em;
+}
+
+a {
+  color: darkorange;
+  text-decoration: none;
 }

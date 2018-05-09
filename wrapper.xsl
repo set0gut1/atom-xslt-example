@@ -18,7 +18,7 @@
         <title>
           <xsl:value-of select="a:title"/>
         </title>
-        <link rel="stylesheet" href="atom.css"/>
+        <link rel="stylesheet" href="wrapper.css"/>
       </head>
       <body>
         <h1>
