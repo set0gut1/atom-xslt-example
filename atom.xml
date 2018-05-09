@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://example.com/</id>
+  <title>sample feed</title>
+  <updated>2018-05-09T00:00:00+09:00</updated>
+  <entry>
+      <id>http://example.com/post3.html</id>
+      <title>Title of article 3</title>
+      <updated>2018-05-09T00:00:00+09:00</updated>
+      <summary>Summary of article 3</summary>
+  </entry>
+  <entry>
+      <id>http://example.com/post2.html</id>
+      <title>Title of article 2</title>
+      <updated>2018-05-08T00:00:00+09:00</updated>
+      <summary>Summary of article 2</summary>
+  </entry>
+  <entry>
+      <id>http://example.com/post1.html</id>
+      <title>Title of article 1</title>
+      <updated>2018-05-07T00:00:00+09:00</updated>
+      <summary>Summary of article 1</summary>
+  </entry>
+</feed>
