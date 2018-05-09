@@ -1,0 +1,9 @@
+#wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+}
