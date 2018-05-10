@@ -41,6 +41,7 @@
       </xsl:element>
       :
       <xsl:value-of select="a:summary"/>
+      (<xsl:value-of select="substring(a:updated, 1, 10)"/>)
     </li>
   </xsl:template> 
 
